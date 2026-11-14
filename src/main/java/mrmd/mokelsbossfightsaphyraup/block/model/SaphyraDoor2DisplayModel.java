@@ -1,0 +1,21 @@
+package mrmd.mokelsbossfightsaphyraup.block.model;
+
+import mrmd.mokelsbossfightsaphyraup.MokelsBossfightSaphyraMod;
+
+import mrmd.mokelsbossfightsaphyraup.block.display.SaphyraDoor2DisplayItem;
+import net.minecraft.resources.ResourceLocation;
+import software.bernie.geckolib.model.GeoModel;
+
+public class SaphyraDoor2DisplayModel extends GeoModel<SaphyraDoor2DisplayItem> {
+   public ResourceLocation getAnimationResource(SaphyraDoor2DisplayItem animatable) {
+      return ResourceLocation.fromNamespaceAndPath(mrmd.mokelsbossfightsaphyraup.MokelsBossfightSaphyraMod.MODID, "animations/bossgate.animation.json");
+   }
+
+   public ResourceLocation getModelResource(SaphyraDoor2DisplayItem animatable) {
+      return ResourceLocation.fromNamespaceAndPath(mrmd.mokelsbossfightsaphyraup.MokelsBossfightSaphyraMod.MODID, "geo/bossgate.geo.json");
+   }
+
+   public ResourceLocation getTextureResource(SaphyraDoor2DisplayItem entity) {
+      return ResourceLocation.fromNamespaceAndPath(mrmd.mokelsbossfightsaphyraup.MokelsBossfightSaphyraMod.MODID, "textures/block/bossgatetexturesaphyra.png");
+   }
+}

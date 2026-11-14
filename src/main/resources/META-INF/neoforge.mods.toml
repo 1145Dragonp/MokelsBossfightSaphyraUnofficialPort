@@ -1,0 +1,47 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="mokels_bossfight_saphyra"
+version="21.0.1"
+displayName="Mokels The Shattered Goddess"
+displayURL="https://github.com/1145Dragonp/"
+logoFile="logo.png"
+credits="Mrmagicdragon ported this mod using IntelliJ"
+authors="Mokel"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.mokels_bossfight_saphyra]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mokels_bossfight_saphyra]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mokels_bossfight_saphyra]]
+    modId="geckolib"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mokels_bossfight_saphyra]]
+    modId="playeranimator"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

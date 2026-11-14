@@ -1,0 +1,21 @@
+package mrmd.mokelsbossfightsaphyraup.entity.model;
+
+import mrmd.mokelsbossfightsaphyraup.MokelsBossfightSaphyraMod;
+
+import mrmd.mokelsbossfightsaphyraup.entity.MoonbeamEntity;
+import net.minecraft.resources.ResourceLocation;
+import software.bernie.geckolib.model.GeoModel;
+
+public class MoonbeamModel extends GeoModel<MoonbeamEntity> {
+   public ResourceLocation getAnimationResource(MoonbeamEntity entity) {
+      return ResourceLocation.fromNamespaceAndPath(mrmd.mokelsbossfightsaphyraup.MokelsBossfightSaphyraMod.MODID, "animations/moonbeam.animation.json");
+   }
+
+   public ResourceLocation getModelResource(MoonbeamEntity entity) {
+      return ResourceLocation.fromNamespaceAndPath(mrmd.mokelsbossfightsaphyraup.MokelsBossfightSaphyraMod.MODID, "geo/moonbeam.geo.json");
+   }
+
+   public ResourceLocation getTextureResource(MoonbeamEntity entity) {
+      return ResourceLocation.fromNamespaceAndPath(mrmd.mokelsbossfightsaphyraup.MokelsBossfightSaphyraMod.MODID, "textures/entities/" + entity.getTexture() + ".png");
+   }
+}
